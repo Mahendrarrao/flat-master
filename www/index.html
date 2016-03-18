@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Flat Master</h1>
+      </ion-header-bar>
+      <ion-content>
+        <div class="list">
+
+  <a class="item item-icon-left item-icon-right" href="#myModal" data-toggle="modal">
+    <i class="icon ion-person"></i>
+    Owner ID
+    <span class="item-note">More Information</span>
+    <i class="icon ion-plus-round"></i>
+  </a>
+
+  <a class="item item-icon-left item-icon-right" href="#myModal" data-toggle="modal">
+    <i class="icon ion-person"></i>
+    Owner ID
+    <span class="item-note">More Information</span>
+    <i class="icon ion-plus-round"></i>
+  </a>
+
+  <a class="item item-icon-left item-icon-right" href="#myModal" data-toggle="modal">
+    <i class="icon ion-person"></i>
+    Owner ID
+    <span class="item-note">More Information</span>
+    <i class="icon ion-plus-round"></i>
+  </a>
+
+  <a class="item item-icon-left item-icon-right" href="#myModal" data-toggle="modal">
+    <i class="icon ion-person"></i>
+    Owner ID
+    <span class="item-note">More Information</span>
+    <i class="icon ion-plus-round"></i>
+  </a>
+ 
+ </div>
+      </ion-content>
+
+    </ion-pane>
+
+  <!-- Modal 1 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Resident Payment Details</h4>
+        </div>
+        <div class="modal-body">
+         <div class="list list-inset">
+            <div class="item">Flat ID</div>
+            <div class="item">Flat 2 ID</div>
+            <div class="item">Bill ID</div>
+            <div class="item">Due Date</div>
+          </div>
+        </div>
+        <div class="modal-footer"><b>Amount to be Paid : INR 00000</b>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  </body>
+</html>
